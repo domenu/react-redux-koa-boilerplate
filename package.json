@@ -1,0 +1,25 @@
+{
+  "name": "boilerplate-koa-redux-react",
+  "version": "1.0.0",
+  "description": "Boilerplate for Koa Reduc React application with webpack, Mocha and SASS",
+  "main": "index.js",
+  "scripts": {
+    "webserver": "node api/src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domenu/react-redux-koa-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "Dominique Menu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/domenu/react-redux-koa-boilerplate/issues"
+  },
+  "homepage": "https://github.com/domenu/react-redux-koa-boilerplate#readme",
+  "dependencies": {
+    "koa": "^1.1.2"
+  }
+}
