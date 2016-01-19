@@ -36,7 +36,7 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "bookshelf": "^0.9.1",
-    "css-loader": "^0.23.0",
+    "css-loader": "^0.23.1",
     "history": "^1.14.0",
     "html-webpack-plugin": "^1.7.0",
     "immutable": "^3.7.6",
