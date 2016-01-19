@@ -11,6 +11,12 @@ module.exports = {
     path.resolve(ROOT_PATH, 'app/src/index'),
   ],
   module: {
+    preLoaders: [{
+    test: /\.jsx?$/,
+    loaders: ['eslint'],
+    include: path.resolve(ROOT_PATH, 'app')
+  }
+],
     loaders: [{
       test: /\.jsx?$/,
       exclude: /node_modules/,
